@@ -28,6 +28,7 @@
     "@testing-library/react": "^10.4.7",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.2.0",
+    "emotion-theming": "^10.0.27",
     "eslint": "^6.7.1",
     "eslint-config-cypress": "^0.28.0",
     "eslint-config-kentcdodds": "^14.6.1",
