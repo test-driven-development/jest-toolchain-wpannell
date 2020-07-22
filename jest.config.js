@@ -9,4 +9,8 @@ module.exports = {
   },
   setupFilesAfterEnv: ['@testing-library/jest-dom/extend-expect'],
   snapshotSerializers: ['jest-emotion'],
+  forceCoverageMatch: ['**/*.spec.js'],
+  notify: true,
+  notifyMode: 'always',
+  verbose: true,
 }
