@@ -13,7 +13,9 @@
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|json|css|html|md)\"",
     "lint": "eslint --ignore-path .gitignore .",
     "validate": "npm run lint && npm run test && npm run build",
-    "setup": "npm install && npm run validate"
+    "setup": "npm install && npm run validate",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "keywords": [],
   "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
@@ -25,6 +27,10 @@
     "@babel/preset-react": "^7.7.4",
     "@babel/runtime": "^7.7.4",
     "@emotion/babel-preset-css-prop": "^10.0.23",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
     "@testing-library/jest-dom": "^5.11.1",
     "@testing-library/react": "^10.4.7",
     "babel-loader": "^8.0.6",
